@@ -49,6 +49,7 @@ nav .nav-bar{
     position: relative;
     font-size: 18px;
     text-decoration: none;
+    color: var(--text-color);
 }
 
 .nav-links li a::before{
@@ -114,6 +115,7 @@ nav .nav-bar .logo a{
     height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 20px;
 }
 
 .bannier-welcome {
